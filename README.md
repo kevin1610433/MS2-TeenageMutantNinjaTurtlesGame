@@ -59,7 +59,7 @@ This website has been laid out in a way as to get a feel for who the band are by
 
 I used Balsamiq to create my wireframes - first time I have used Balsamiq and I found it to be a very good tool
 
-![Wireframes](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/wireframe/W2WWire.jpg)
+![Wireframes](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/wireframe/TMNTwireframe.jpg)
 
 # **Surface**
 
