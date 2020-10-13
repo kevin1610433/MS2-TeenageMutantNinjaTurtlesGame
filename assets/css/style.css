@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+.body {
+    text-align: center;
+}
+
+.background-image {
+    text-align: center;
+    background-color: rgb(52, 109, 52);
+}
+
 .gamecards {
     width: 100%;
     height: auto;
 }
-.background-image {
-    justify-content: center;
-    
+
+
+.btn btn-primary btn-lg {
+    text-align: center;
+    color: green;
+
+
 }
 
 
