@@ -5,14 +5,15 @@
 }
 
 #background-home { 
-    background: url("../../assets/images/ninja2.png") no-repeat center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-attachment: fixed;
+    background: url("../../assets/images/ninja3.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: cover;
     min-height: 100vh;
 }
+
     
   
 }
