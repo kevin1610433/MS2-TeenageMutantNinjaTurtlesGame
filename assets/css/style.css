@@ -22,6 +22,10 @@
    
 }
 
+.rounded-pill {
+    text-align: center;
+}
+
 #background-easy {
     color: green;
     -webkit-background-size: cover;
