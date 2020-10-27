@@ -1,57 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
- body {
-    font-family: 'Indie Flower', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: green;
+body {
+  font-family: "Indie Flower", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: green;
 }
-#background-home { 
-    background: url("../../assets/images/ninja3.png") no-repeat left center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
+#background-home {
+  background: url("../../assets/images/ninja3.png") no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
-   .background-instructions {
-    color: green;
-   
+.background-instructions {
+  color: green;
 }
 
 .rounded-pill {
-    text-align: center;
+  text-align: center;
 }
 
 #background-easy {
-    color: green;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
+    background: url("../../assets/images/ninja1.jpg") no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 #background-hard {
-    background: url("../../assets/images/ninja1.jpg") no-repeat left center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
+  background: url("../../assets/images/ninja1.jpg") no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
-.container-wrapper{
+.container-wrapper {
   padding: 20px;
   font-size: 36px;
-  text-align: center ;
+  text-align: center;
   text-decoration: none;
   width: 100%;
   margin-bottom: 50;
@@ -59,18 +58,21 @@
 }
 
 .text {
-    color: green;
-    margin-bottom: 0;
+  color: green;
+  margin-bottom: 0;
+  font-size: 36px;
 }
 
 .container {
-    text-align: center;
-    font-size: 36px;
-    color: green;
-    
+  padding: 20px;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 50;
 }
 
-
-
-
-
+.footer {
+    text-align: center;
+    margin-bottom: 0;
+}
