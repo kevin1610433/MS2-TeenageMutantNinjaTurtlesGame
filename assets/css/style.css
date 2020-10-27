@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-html, body {
+ #body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    color: green;
 }
 #background-home { 
     background: url("../../assets/images/ninja3.png") no-repeat left center;
@@ -16,16 +17,9 @@ html, body {
     min-height: 100vh;
 }
 
-#background-instructions {
-    background: url("../../assets/images/ninja2.png") no-repeat left center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    
+   .background-instructions {
+    color: green;
+   
 }
 
 #background-easy {
@@ -51,23 +45,25 @@ html, body {
 }
 
 .container-wrapper{
-  color: rgb(7, 253, 89);
   padding: 20px;
   font-size: 36px;
-  text-align: center;
+  text-align: center ;
   text-decoration: none;
   width: 100%;
+  margin-bottom: 50;
   
 }
 
 .text {
     color: green;
+    margin-bottom: 0;
 }
 
 .container {
     text-align: center;
     font-size: 36px;
     color: green;
+    
 }
 
 
