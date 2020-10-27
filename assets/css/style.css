@@ -16,8 +16,20 @@ html, body {
     min-height: 100vh;
 }
 
-.background-instructions {
-    background: url("../../assets/images/ninja4.jpg") no-repeat left center;
+#background-instructions {
+    background: url("../../assets/images/ninja2.png") no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+
+#background-easy {
+    color: green;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,19 +39,8 @@ html, body {
     min-height: 100vh;
 }
 
-.background-easy {
-    background: url("../../assets/images/ninja4.jpg") no-repeat left center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-}
-
-.background-hard {
-    background: url("../../assets/images/ninja4.jpg") no-repeat left center;
+#background-hard {
+    background: url("../../assets/images/ninja1.jpg") no-repeat left center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -66,6 +67,7 @@ html, body {
 .container {
     text-align: center;
     font-size: 36px;
+    color: green;
 }
 
 
