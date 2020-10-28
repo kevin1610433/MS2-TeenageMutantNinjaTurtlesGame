@@ -46,5 +46,3 @@ let delay = 1200;
 let timerOn = false;
 let matchCount = 0;
 
-
-  
