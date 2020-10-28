@@ -4,11 +4,12 @@ body {
   font-family: "Indie Flower", sans-serif;
   margin: 0;
   padding: 0;
-  color: rgb(7, 243, 7);
   font-size: 36PX;
+  background-color: rgb(114, 116, 114);
+  
 }
 #background-home {
-  background: url("../../assets/images/ninja3.png") no-repeat left center;
+  background: url("../../assets/images/ninja.png") no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,10 +19,27 @@ body {
   min-height: 100vh;
 }
 
-#button {
-font-family: "Indie Flower", sans-serif;
+#container {
+
   margin: 0;
   padding: 0;
   color: rgb(7, 243, 7);
   font-size: 36PX;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   color: black;
+   text-align: center;
+}
+
+.button {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
 }

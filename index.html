@@ -29,59 +29,86 @@
     <title>Teenage Ninja Turtles</title>
   </head>
   <body>
-    <div id="background-home">
-      <div class="container-fluid container-header">
-        <div class="row justify-content-center">
-          <a href="index.html"></a>
+    <!--------Code taken from Bootstrap------>
+    
+      <div class="row">
+      
+        <button type="button" class="btn btn-outline">EASY</button>
+        <button type="button" class="btn btn-outline">HARD</button>
+        <button type="button" class="btn btn-outline">MUTE MUSIC</button>
+        <button type="button" class="btn btn-outline">START</button>
+        <button type="button" class="btn btn-outline">RESTART</button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          INSTRUCTIONS
+        </button>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">INSTRUCTIONS</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                KAWABANGA!!! The object of this game is a simple card game with
+                a timer. You will need to flip the cards to get a match, you
+                will need to complete this in 10 seconds or you will need to
+                restart the game. Two levels: Easy and Hard. Good Luck
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    
+    
 
-      <!--------Code taken from Bootstrap------>
-<div class="button">
-      <div class="container-fluid container-enter">
-        <div class="row">
-          <div class="col-sm-12 col-md-3 col-lg-3">
-            <a href="index.html" class="btn btn-lg btn--enter menu-audio"
-              >LEVELS</a>
-          </div>
-           <div class="col-sm-12 col-md-3 col-lg-3">
-            <a href="index.html" class="btn btn-lg btn--enter menu-audio"
-              >MUTE</a>
-          </div>
-           <div class="col-sm-12 col-md-3 col-lg-3">
-            <a href="index.html" class="btn btn-lg btn--enter menu-audio"
-              >START</a>
-          </div>
-           <div class="col-sm-12 col-md-3 col-lg-3">
-            <a href="index.html" class="btn btn-lg btn--enter menu-audio"
-              >RESTART</a>
-          </div>
-           <div class="col-12">
-            <a href="index.html" class="btn btn-lg btn--enter menu-audio"
-              >INSTRUCTIONS</a>
-          </div>
-        </div>
-      </div>
-</div>
-      <!-------Code taken from previous project and changed--------->
+    
 
-      <div class="footer">
-        <div class="container-wrapper">
-          <a target="_blank" href="https://www.facebook.com">
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            <span class="sr-only">Facebook</span>
-          </a>
-          <a target="_blank" href="https://twitter.com/explore">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <span class="sr-only">Twitter</span>
-          </a>
-          <a target="_blank" href="https://github.com/kevin1610433/">
-            <i class="fab fa-github" aria-hidden="true"></i>
-            <span class="sr-only">Github</span>
-          </a>
+    <!-------Code taken from previous project and changed--------->
 
-          <p class="text">2020 Kevin Rogerson</p>
-        </div>
+    <div class="footer">
+      <div class="container-wrapper">
+        <a target="_blank" href="https://www.facebook.com">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+        </a>
+        <a target="_blank" href="https://twitter.com/explore">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span class="sr-only">Twitter</span>
+        </a>
+        <a target="_blank" href="https://github.com/kevin1610433/">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span class="sr-only">Github</span>
+        </a>
+
+        <p class="text">2020 Kevin Rogerson</p>
       </div>
     </div>
 
