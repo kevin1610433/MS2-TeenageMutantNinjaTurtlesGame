@@ -46,3 +46,7 @@ let delay = 1200;
 let timerOn = false;
 let matchCount = 0;
 
+let game = document.getElementById('game');
+let grid = document.createElement('section');
+grid.setAttribute('class', 'grid');
+game.appendChild(grid);
