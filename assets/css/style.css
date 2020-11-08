@@ -46,6 +46,10 @@
   backface-visibility: hidden;
 }
 
+.front-face {
+  transform: rotateY(180deg);
+}
+
 body {
   font-family: "Indie Flower", sans-serif;
   margin: 0;
