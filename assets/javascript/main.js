@@ -63,4 +63,12 @@ const cards = document.querySelectorAll('.memory-card');
    });
  })();
 
+  function startGame() {
+                var that = this;
+                var restartButton = document.getElementById( 'restart' );
+                eventUtility.addEvent(restartButton, 'click', function() {
+                    that.init();
+                });
+            }
+
 cards.forEach(card => card.addEventListener('click', flipCard));
