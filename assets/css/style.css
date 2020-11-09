@@ -8,7 +8,7 @@
 
 .memory-game {
   width: 740px;
-  height: 640px;
+  height: 540px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -16,21 +16,25 @@
 }
 
 .col {
+    margin: auto;
+    display: flex;
   position: relative;
-  left: 0;
-  bottom: 0;
   width: 100%;
   color: black;
   text-align: center;
+  padding-bottom: 10px;
+ 
 }
 
 .row {
+    margin: auto;
+    display: flex;
   position: relative;
-  left: 0;
-  bottom: 0;
+
   width: 100%;
   color: black;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .memory-card {
