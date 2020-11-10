@@ -16,20 +16,18 @@
 }
 
 .col {
-    margin: auto;
-    display: flex;
+  margin: auto;
+  display: flex;
   position: relative;
   width: 100%;
   color: black;
   text-align: center;
   padding-bottom: 10px;
-
- 
 }
 
 .row {
-    margin: auto;
-    display: flex;
+  margin: auto;
+  display: flex;
   position: relative;
 
   width: 100%;
@@ -37,7 +35,6 @@
   text-align: center;
   padding-bottom: 10px;
   justify-content: center;
-  
 }
 
 .memory-card {
