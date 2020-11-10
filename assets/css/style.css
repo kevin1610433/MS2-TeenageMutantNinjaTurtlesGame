@@ -23,6 +23,7 @@
   color: black;
   text-align: center;
   padding-bottom: 10px;
+
  
 }
 
@@ -35,6 +36,8 @@
   color: black;
   text-align: center;
   padding-bottom: 10px;
+  justify-content: center;
+  
 }
 
 .memory-card {

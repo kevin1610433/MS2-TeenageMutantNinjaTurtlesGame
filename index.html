@@ -24,18 +24,22 @@
     />
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <!--------------Title---------->
+    <!----------------------------Title------------------->
 
     <title>Teenage Ninja Turtles</title>
   </head>
   <body>
-    <!--------Code taken from Bootstrap------>
+
+  <!-----------------Code taken from Bootsrap--------------->
     <div class="col">
       <div class="row">
         <button type="button" class="restart" onclick="muteMusic()">
           MUTE MUSIC
         </button>
         <button type="button" class="restart" onclick="startGame()">
+          START
+        </button>
+        <button type="button" class="restart" onclick="restartGame()">
           RESTART
         </button>
         <button
@@ -46,7 +50,7 @@
         >
           INSTRUCTIONS
         </button>
-        <!-- Modal -->
+        <!------------------ Modal ------------------->
         <div
           class="modal fade"
           id="exampleModal"
@@ -88,6 +92,8 @@
     </div>
 
     <!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
+    
+
     <section class="memory-game">
       <div class="memory-card" data-framework="ninja4">
         <img class="front-face" src="assets/images/ninja4.jpg" alt="ninja4" />
