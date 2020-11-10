@@ -33,15 +33,12 @@
   <!-----------------Code taken from Bootsrap--------------->
     <div class="col">
       <div class="row">
-        <button type="button" class="muteMusic" onclick="muteMusic()">
-          MUTE MUSIC
-        </button>
-        <button type="button" class="startGame" onclick="startGame()">
-          START
-        </button>
-        <button type="button" class="restart" onclick="restartGame()">
-          RESTART
-        </button>
+      <audio id="myAudio">
+      <source src="turtles.mp3" type="audio/mp3">
+      <source src="turtles.mp3" type="audio/mp3"></audio>
+        <button onclick="playAudio()" type="button">START</button>
+        <button onclick="pauseAudio()" type="button">MUTE MUSIC</button>
+       
         <button
           type="button"
           class="btn btn-primary"
