@@ -16,6 +16,8 @@ music.restart();
 }
 
 
+
+
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 
@@ -112,4 +114,21 @@ function resetBoard() {
   });
 })();
 
+
+
 cards.forEach((card) => card.addEventListener("click", flipCard));
+
+//
+function gameOver(moves, score) {
+$('#myText').text(`Time: ${second} Seconds, Your Move: ${moves} Moves, Total 
+Score: ${score}, Well done!!!`);
+$('#myModal').toggle(); 
+}
+
+if (totalCard === match) {
+        rating(moves);
+        let score = rating(moves).score;
+        setTimeout(function () {
+            gameOver(moves, score);
+        },800);
+    }
