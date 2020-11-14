@@ -1,15 +1,18 @@
 //Code taken from and accredited to https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 
+
+const cards = document.querySelectorAll(".memory-card");
+
+
 var music = document.getElementById("myAudio");
 function playAudio() {
 music.play();
 
 }
-
+var music = document.getElementById("myAudio");
 function pauseAudio() {
-music.pause();}
-
-const cards = document.querySelectorAll(".memory-card");
+music.pause();
+}
 
 let hasFlippedCard = false;
 let lockBoard = false;
