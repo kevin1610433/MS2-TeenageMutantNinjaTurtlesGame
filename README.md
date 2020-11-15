@@ -2,16 +2,18 @@
 
 **Milestone Project 2: Interactive Frontend Development - Code Institute**
 
-This site is to help promote a South African Rock Band by increasing their status by showcasing their already extensive library of Music and Videos along with touring. This site focuses on the Band, Band Members, Videos with Links and a submission form in order to enquire about booking the Band.
+This site is based around the classic cartoon teenage ninja turtles along with a theme tune to keep the suspense going.  The target audience is really for all ages and is a simple memory game to match a pair of cards, once these have all been matched the game has been won.
+
 
 In Short:
 
-- Increase Band bookings
-- Promote Band Awareness
+- Simple card matching game
+- Wide target audience
+- Increase timings with memory of cards
 
 # **Demo**
 
-A live Demo can be found [here](https://kevin1610433.github.io/MS1-WakeToWonderBand-Site/)
+A live Demo can be found [](https://kevin1610433.github.io/MS1-WakeToWonderBand-Site/)
 
 ![Design](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/demo.png)
 
