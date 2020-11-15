@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f07371f622.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://csshake.surge.sh/csshake.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!----------------------------Title------------------->
+
+    <title>Teenage Ninja Turtles</title>
+  </head>
+  <body>
+
+  <div class="container-fluid container-header">
+        <div class="row justify-content-center">
+          <a href="index.html"></a>
+        </div>
+      </div>
+    <!-----------------Code taken from Bootsrap--------------->
+    <div class="col">
+      <div class="row">
+        <audio id="myAudio">
+          <source src="assets/audio/music/turtles.mp3" type="audio/mp3" />
+          <source src="assets/audio/music/turtles.mp3" type="audio/mp3" />
+        </audio>
+        <p id="startGame">
+          <div class="col"><a href="#"></a></div>
+        </p>
+        <p id="pause">
+          <button onclick="pauseAudio()" type="button">MUTE MUSIC</button>
+        </p>
+        <p id="restart">
+          <button onclick="pauseAudio()" type="button">RESTART</button>
+        </p>
+      </div></div>
+
+
+    <!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
+
+    <section class="memory-game">
+      <div class="memory-card" data-framework="ninja4">
+        <img class="front-face" src="assets/images/ninja4.jpg" alt="ninja4" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja4">
+        <img class="front-face" src="assets/images/ninja4.jpg" alt="ninja4" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja10">
+        <img class="front-face" src="assets/images/ninja10.jpg" alt="ninja10" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja10">
+        <img class="front-face" src="assets/images/ninja10.jpg" alt="ninja10" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja2">
+        <img class="front-face" src="assets/images/ninja2.png" alt="ninja2" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja2">
+        <img class="front-face" src="assets/images/ninja2.png" alt="ninja2" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja6">
+        <img class="front-face" src="assets/images/ninja6.jpg" alt="ninja6" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja6">
+        <img class="front-face" src="assets/images/ninja6.jpg" alt="ninja6" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja7">
+        <img class="front-face" src="assets/images/ninja7.jpg" alt="ninja7" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja7">
+        <img class="front-face" src="assets/images/ninja7.jpg" alt="ninja7" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja8">
+        <img class="front-face" src="assets/images/ninja8.png" alt="ninja8" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+
+      <div class="memory-card" data-framework="ninja8">
+        <img class="front-face" src="assets/images/ninja8.png" alt="ninja8" />
+        <img
+          class="back-face"
+          src="assets/images/ninja1.jpg"
+          alt="Memory Card"
+        />
+      </div>
+    </section>
+
+    <!-------Code taken from previous project and changed--------->
+
+    <div class="social">
+      <a target="_blank" href="https://www.facebook.com">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <span class="sr-only">Facebook</span>
+      </a>
+      <a target="_blank" href="https://twitter.com/explore">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <span class="sr-only">Twitter</span>
+      </a>
+      <a target="_blank" href="https://github.com/kevin1610433/">
+        <i class="fab fa-github" aria-hidden="true"></i>
+        <span class="sr-only">Github</span>
+      </a>
+    </div>
+    <p class="text">2020 Kevin Rogerson</p>
+
+    <script src="assets/javascript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

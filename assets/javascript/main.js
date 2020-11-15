@@ -1,6 +1,6 @@
 // Code taken from W3Schools
 
-var music = document.getElementById("myAudio");
+var music = document.getElementById("myAudio", startGame);
 function playAudio() {
   music.play();
 }
@@ -14,15 +14,9 @@ function restartAudio() {
   music.restart();
 }
 
-var game = document.getElementById("demo");
-function startGame() {
-  game.start();
-}
+document.getElementById("startGame").addEventListener("click", myFunction);
 
-document.getElementById("demo").addEventListener("click", myFunction);
-
-function myFunction() {;
-}
+function myFunction() {}
 
 //Code taken from and accredited to https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 
