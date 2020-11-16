@@ -1,6 +1,7 @@
 // Code taken from W3Schools
 
-var music = document.getElementById("myAudio", startGame);
+
+var music = document.getElementById("myAudio");
 function playAudio() {
   music.play();
 }
@@ -14,7 +15,7 @@ function restartAudio() {
   music.restart();
 }
 
-document.getElementById("startGame").addEventListener("click", myFunction);
+document.getElementById("myAudio").addEventListener("click", myFunction);
 
 function myFunction() {}
 
