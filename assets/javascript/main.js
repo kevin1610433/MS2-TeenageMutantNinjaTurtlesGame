@@ -3,19 +3,19 @@
 
 var music = document.getElementById("myAudio");
 function playAudio() {
-  music.play();
+  music.play(true);
 }
 var music = document.getElementById("myAudio");
 function pauseAudio() {
   music.pause();
 }
 
-var music = document.getElementById("myAudio");
+var music = document.getElementById("restart");
 function restartAudio() {
   music.restart();
 }
 
-document.getElementById("myAudio").addEventListener("click", myFunction);
+document.getElementById("myAudio", restart).addEventListener("onclick", myFunction);
 
 function myFunction() {}
 
