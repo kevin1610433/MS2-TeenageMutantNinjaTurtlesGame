@@ -68,26 +68,27 @@ function resetBoard() {
   });
 })();
 
-function victoryPopUp(moves) {
-  let popUp = document.querySelector(".popUp");
-  popUp.style.visibility = "visible";
-  popUp.querySelector(".popUpTime").innerHTML =
-    "You won the game in " + minutes + " mins and " + seconds + " secs!";
-  popUp.querySelector(".popUpMoves").innerHTML =
-    "You made " + moves + " moves!";
-}
+
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
-document.getElementById("sound").addEventListener("onclick");
+document.getElementById("sound").addEventListener("onclick").loop = true;
 
 
-function play1() { 
-                  
-                /* Audio link for notification */ 
-                var mp3 = '<source src="assets/audio/music/turtles.mp3" type="audio/mpeg">'; 
-                document.getElementById("sound").innerHTML =  
-                '<audio autoplay="autoplay">' + mp3 + "</audio>"; 
-            } 
+function playAudio() { 
+  
+                
+                var audio = new Audio("assets/audio/music/turtles.mp3"); 
+                audio.play(); 
+ }
+ 
+ function pauseAudio() { 
+  
+                
+                var audio = new Audio("assets/audio/music/turtles.mp3"); 
+                audio.pause(); 
+ }
+ 
 
-document.getElementById("sound").loop = true;
+
+
