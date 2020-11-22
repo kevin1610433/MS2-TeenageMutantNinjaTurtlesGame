@@ -1,23 +1,6 @@
 // Code taken from W3Schools
 
-
-var music = document.getElementById("myAudio");
-function playAudio() {
-  music.play(true);
-}
-var music = document.getElementById("myAudio");
-function pauseAudio() {
-  music.pause();
-}
-
-var music = document.getElementById("restart");
-function restartAudio() {
-  music.restart();
-}
-
-document.getElementById("myAudio", restart).addEventListener("onclick", myFunction);
-
-function myFunction() {}
+//https://www.geeksforgeeks.org/how-to-play-a-notification-sound-on-website
 
 //Code taken from and accredited to https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 
@@ -95,3 +78,16 @@ function victoryPopUp(moves) {
 }
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
+
+document.getElementById("sound").addEventListener("onclick");
+
+
+function play1() { 
+                  
+                /* Audio link for notification */ 
+                var mp3 = '<source src="assets/audio/music/turtles.mp3" type="audio/mpeg">'; 
+                document.getElementById("sound").innerHTML =  
+                '<audio autoplay="autoplay">' + mp3 + "</audio>"; 
+            } 
+
+document.getElementById("sound").loop = true;

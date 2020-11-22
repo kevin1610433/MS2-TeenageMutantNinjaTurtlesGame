@@ -29,31 +29,32 @@
     <title>Teenage Ninja Turtles</title>
   </head>
   <body>
-
-  <div class="container-fluid container-header">
-        <div class="row justify-content-center">
-          <a href="index.html"></a>
-        </div>
+    <div class="container-fluid container-header">
+      <div class="row justify-content-center">
+        <a href="index.html"></a>
       </div>
+    </div>
     <!-----------------Code taken from Bootsrap--------------->
     <div class="col">
       <div class="row">
-        <audio id="myAudio">
-          <source src="assets/audio/music/turtles.mp3" type="audio/mp3" />
-          <source src="assets/audio/music/turtles.mp3" type="audio/mp3" />
-        </audio>
-        
-          <button value="PLAY" onclick="playAudio()"> <a href="index.html">HOME</a></button>
-    
-        <p id="pause">
-        
-          <button onclick="pauseAudio()" type="button">MUTE MUSIC</button>
-        </p>
-        <p id="restart">
-          <button onclick="restartAudio()" type="button">RESTART</button>
-        </p>
-      </div></div>
+      <div id="sound"> </div>
+        <p><button onclick="play1();"> 
+            START GAME 
+       </button> </p>
+      <p> <button onclick="play1();"> 
+            MUTE MUSIC 
+       </button> </p>
+       
 
+        <a href="index.html"><button>HOME</button></a>
+        
+        
+
+        <p id="restart">
+          <button onclick="restartAudio();" >RESTART</button>
+        </p>
+      </div>
+    </div>
 
     <!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
 
