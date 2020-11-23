@@ -37,14 +37,14 @@
     <!-----------------Code taken from Bootsrap--------------->
     <div class="col">
       <div class="row">
-      <div id="sound"> </div>
-        <p><button onclick="playAudio();"> 
-            START GAME 
-       </button> </p>
+      <audio id="myAudio">
+  <source src="assets/audio/music/turtles.mp3" type="audio/ogg">
+  <source src="assets/audio/music/turtles.mp3" type="audio/mpeg">
+  
+</audio>
+        <p><button onclick="playAudio()" type="button">START GAME</button> </p>
        
-      <p> <button onclick="pauseAudio();"> 
-            MUTE MUSIC 
-       </button> </p>
+      <p> <button onclick="pauseAudio()" type="button">MUTE MUSIC</button>  </p>
        
 
         <a href="index.html"><button>HOME</button></a>
