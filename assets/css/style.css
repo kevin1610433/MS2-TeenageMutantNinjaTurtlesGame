@@ -4,14 +4,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 body,
 html {
   height: 100%;
   margin: 0;
-  
 }
 
 .bg {
@@ -20,7 +18,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  text-align: center;
+  padding: 250px;
+  color: rgb(255, 255, 255);
+}
+
+.modal-body {
+  text-align: center;
+  color: rgb(90, 0, 0);
 }
 
 .memory-game {
@@ -37,7 +42,7 @@ html {
   display: flex;
   position: relative;
   width: 100%;
-  color:  rgb(139, 2, 2);
+  color: rgb(139, 2, 2);
   text-align: center;
   padding-bottom: 10px;
 }
@@ -46,9 +51,9 @@ html {
   margin: auto;
   display: flex;
   position: relative;
-vertical-align: center;
+  vertical-align: center;
   width: 100%;
-  color:  rgb(139, 2, 2);
+  color: rgb(139, 2, 2);
   text-align: center;
   padding-bottom: 10px;
   justify-content: center;
@@ -95,29 +100,9 @@ body {
   padding: 0;
   font-size: 36px;
   background-color: rgb(114, 116, 114);
-  
 }
 
 .social {
   text-align: center;
   color: rgb(139, 2, 2);
-  
-}
-
-.text {
-  text-align: center;
-  color: rgb(139, 2, 2);
-  
-}
-
-.p {
-      margin: auto;
-  display: flex;
-  position: relative;
-vertical-align: center;
-  width: 100%;
-  color: rgb(139, 2, 2);
-  text-align: center;
-  padding-bottom: 10px;
-  justify-content: center;
 }
