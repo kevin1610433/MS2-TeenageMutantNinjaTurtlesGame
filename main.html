@@ -24,170 +24,230 @@
     />
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
+
     <!----------------------------Title------------------->
 
     <title>Teenage Ninja Turtles</title>
   </head>
   <body>
-    <div class="container-fluid container-header">
-      <div class="row justify-content-center">
-        <a href="index.html"></a>
-      </div>
-    </div>
     <!-----------------Code taken from Bootsrap--------------->
-    <div class="col">
+
+    <div class="container">
       <div class="row">
-      <audio id="myAudio">
-  <source src="assets/audio/music/turtles.mp3" type="audio/ogg">
-  <source src="assets/audio/music/turtles.mp3" type="audio/mpeg">
-  
-</audio>
-        <p><button onclick="playAudio()" type="button">START GAME</button> </p>
-       
-      <p> <button onclick="pauseAudio()" type="button">MUTE MUSIC</button>  </p>
-       
+        <audio id="myAudio">
+          <source src="assets/audio/music/turtles.mp3" type="audio/ogg" />
+          <source src="assets/audio/music/turtles.mp3" type="audio/mpeg" />
+        </audio>
+        <p><button onclick="playAudio()" type="button">START GAME</button></p>
+
+        <p><button onclick="pauseAudio()" type="button">MUTE MUSIC</button></p>
 
         <a href="index.html"><button>HOME</button></a>
-        
-        
 
         <p id="restart">
-          <button onclick="init();" >RESTART</button>
+          <button onclick="init();">RESTART</button>
         </p>
       </div>
     </div>
 
     <!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
+    
+      <div class="container-fluid">
+      <section class="memory-game">
+        <div class="memory-card" data-framework="ninja4">
+          <img
+            class="front-face"
+            src="assets/images/ninja4.jpg"
+            style="width: 100%;"
+            alt="ninja4"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-    <section class="memory-game">
-      <div class="memory-card" data-framework="ninja4">
-        <img class="front-face" src="assets/images/ninja4.jpg" alt="ninja4" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja4">
+          <img
+            class="front-face"
+            src="assets/images/ninja4.jpg"
+            tyle="width:100%"
+            alt="ninja4"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja4">
-        <img class="front-face" src="assets/images/ninja4.jpg" alt="ninja4" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja10">
+          <img
+            class="front-face"
+            src="assets/images/ninja10.jpg"
+            style="width: 100%;"
+            alt="ninja10"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja10">
-        <img class="front-face" src="assets/images/ninja10.jpg" alt="ninja10" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja10">
+          <img
+            class="front-face"
+            src="assets/images/ninja10.jpg"
+            style="width: 100%;"
+            alt="ninja10"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja10">
-        <img class="front-face" src="assets/images/ninja10.jpg" alt="ninja10" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja2">
+          <img
+            class="front-face"
+            src="assets/images/ninja2.png"
+            style="width: 100%;"
+            alt="ninja2"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja2">
-        <img class="front-face" src="assets/images/ninja2.png" alt="ninja2" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja2">
+          <img
+            class="front-face"
+            src="assets/images/ninja2.png"
+            style="width: 100%;"
+            alt="ninja2"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja2">
-        <img class="front-face" src="assets/images/ninja2.png" alt="ninja2" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja6">
+          <img
+            class="front-face"
+            src="assets/images/ninja6.jpg"
+            style="width: 100%;"
+            alt="ninja6"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja6">
-        <img class="front-face" src="assets/images/ninja6.jpg" alt="ninja6" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja6">
+          <img
+            class="front-face"
+            src="assets/images/ninja6.jpg"
+            style="width: 100%;"
+            alt="ninja6"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja6">
-        <img class="front-face" src="assets/images/ninja6.jpg" alt="ninja6" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja7">
+          <img
+            class="front-face"
+            src="assets/images/ninja7.jpg"
+            style="width: 100%;"
+            alt="ninja7"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja7">
-        <img class="front-face" src="assets/images/ninja7.jpg" alt="ninja7" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja7">
+          <img
+            class="front-face"
+            src="assets/images/ninja7.jpg"
+            style="width: 100%;"
+            alt="ninja7"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja7">
-        <img class="front-face" src="assets/images/ninja7.jpg" alt="ninja7" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja8">
+          <img
+            class="front-face"
+            src="assets/images/ninja8.png"
+            style="width: 100%;"
+            alt="ninja8"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
 
-      <div class="memory-card" data-framework="ninja8">
-        <img class="front-face" src="assets/images/ninja8.png" alt="ninja8" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
-
-      <div class="memory-card" data-framework="ninja8">
-        <img class="front-face" src="assets/images/ninja8.png" alt="ninja8" />
-        <img
-          class="back-face"
-          src="assets/images/ninja1.jpg"
-          alt="Memory Card"
-        />
-      </div>
+        <div class="memory-card" data-framework="ninja8">
+          <img
+            class="front-face"
+            src="assets/images/ninja8.png"
+            style="width: 100%;"
+            alt="ninja8"
+          />
+          <img
+            class="back-face"
+            src="assets/images/ninja1.jpg"
+            alt="Memory Card"
+          />
+        </div>
+      
     </section>
+    </div>
 
     <!-------Code taken from previous project and changed--------->
 
     <div class="social">
       <a target="_blank" href="https://www.facebook.com">
-        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i
+          class="fa fa-facebook-official"
+          aria-hidden="true"
+          style="width: 100%;"
+        ></i>
         <span class="sr-only">Facebook</span>
       </a>
       <a target="_blank" href="https://twitter.com/explore">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true" style="width: 100%;"></i>
         <span class="sr-only">Twitter</span>
       </a>
       <a target="_blank" href="https://github.com/kevin1610433/">
-        <i class="fab fa-github" aria-hidden="true"></i>
+        <i class="fab fa-github" aria-hidden="true" style="width: 100%;"></i>
         <span class="sr-only">Github</span>
       </a>
-    
-    <p class="text">Kevin Rogerson 2020</p>
+
+      <p class="text">Kevin Rogerson 2020</p>
     </div>
+
     <script src="assets/javascript/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
