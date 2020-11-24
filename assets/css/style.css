@@ -29,7 +29,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 250px;
   color: rgb(255, 255, 255);
 }
 
@@ -40,12 +39,14 @@ html {
 }
 
 .memory-game {
-  width: 740px;
-  height: 540px;
+
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
+  align-items: center;
+  justify-content: center;
+  
   
 }
 
