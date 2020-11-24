@@ -2,7 +2,7 @@
 
 **Milestone Project 2: Interactive Frontend Development - Code Institute**
 
-This site is based around the classic cartoon teenage ninja turtles along with a theme tune to keep the suspense going.  The target audience is really for all ages and is a simple memory game to match a pair of cards, once these have all been matched the game has been won.
+This site is based around the classic cartoon Teenage Mutant Ninja Turtles along with a theme tune to keep the suspense going.  The target audience is really for all ages and is a simple memory game to match a pair of cards, once these have all been matched the game has been won.
 
 
 In Short:
@@ -19,23 +19,25 @@ A live Demo can be found [here](https://kevin1610433.github.io/MS2-TeenageMutant
 
 # **UX**
 
-This website has been laid out in a scrollable format and the user can easily navigate through the page. This is a fun website and is aimed at users who are into rock music and are interested in booking a rock band. It is aimed at a large audience and whilst visiting this site they will be introduced to a broader perspective of the bands music. As a user to this site i would expect to see, Images/Videos of the Band, contact/enquiry to book and to connect with the Band.
+This website has two navigatible pages.  The home page is just for simplicity with a 'Turtle Shell' background, consisting of an 'Enter' button to navigate to the next page in order to start the Game, an 'Instructions Modal' which pops up and gives you instructions on how the game works, then some social links that the user can follow and simply a copyright tag.  The second page is laid out with 'Buttons at the top of the page and then the cards laid out below.  This is a simple match the cards game with theme music involved.
+
 
 ## User Stories
 
-- As a fan and friend of W2W I wanted to create a site where I could discover more of their music
-- As an avid photographer I wanted to include images to capture the users into seeing action shots
-- As a fan of rock music I wanted the user to be able to connect through social Links
-- If I was a new visitor to this site I would like to find out more about this band and how I could enquire about booking them
-- I wanted the user to be able to browse this site on any device which I am pretty sure I have achieved
+- As a user I want it to test me each time I reset the game to see if i can improve or go quicker than before.
+- As a user I particulary like the theme music and this takes me back to my childhood as I was a big fan of the Cartoon.
+- As a user I wanted this to be a fun little game to play and get the family involved with it.
+- As a user I wanted this game to be fun whilst travelling or if you simply have 5 minutes to kill wherever you are.
+- I wanted the user to be able to browse this site on any device.
+
 
 # **Features**
 
-My website has 5 different sections to navigate through on a sticky Nav bar which collapses when viewed on a tablet or mobile all images are responsive. I have gone for a single page scrollable website which i think works better for a band all sections are linked and are functional
+My website is two page navigatable pages.  The first page is simply a home page, consisting of a full background image with centered a centered button, modal, Social links and a copyright tag.
 
-- Home - This section has 3 large pics of the Band on a carousel which moves automatically or it can be selected by the user to move to the next page.
-- About - This section gives a brief overview of the Band and some of their tours etc. I wanted to keep it brief in order not to loose the readers interested
-- Band - This section has 4 pics in a row of each member with their names and what instrument they play, I used bootstrap grid for this
+- ENTER - This is a simple button on the index.html page which is linked to the main.html page which then opens another page, which essentially is the game 'Area'
+- Instructions/Modal - This is a modal on the home page index.html.  This Modal when clicked pops up and give you instructions on how the game is meant to be played
+- Social Links/Foooter - There are three links which the user can follow to take them to social links, they are: Facebook, Twitter and Github.  Then my name as copyright
 - Videos - This section has a music video that the Band released and is playable directly from the site, there is a link below the video to take the user to a you tube playlist of the band, i set this so it would open in a seperate page so the user can still continue to browse this site
 - Contact - This section has a form that if the user is interested can enter their details to enquire about booking the band, the submit button takes the user to an image
 - Footer - Very simple footer with social links of the band, Facebook, Twitter, Instagram and you tube
