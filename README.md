@@ -13,9 +13,9 @@ In Short:
 
 # **Demo**
 
-A live Demo can be found [](https://kevin1610433.github.io/MS1-WakeToWonderBand-Site/)
+A live Demo can be found [here](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/)
 
-![Design](https://github.com/kevin1610433/MS1-WakeToWonderBand-Site/blob/master/assets/images/demo.png)
+![Design](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/demo.png)
 
 # **UX**
 
