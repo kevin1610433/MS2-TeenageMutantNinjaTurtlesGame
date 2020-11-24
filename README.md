@@ -65,6 +65,7 @@ This website has been laid out in a way as to get a feel for who the band are by
 I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I found it to be a very good tool, will continue to use this
 
 ![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe1.jpg)
+![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe1.jpg)
 
 
 # **Surface**
