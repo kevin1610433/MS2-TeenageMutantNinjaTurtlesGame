@@ -35,12 +35,13 @@ This website has two navigatible pages.  The home page is just for simplicity wi
 
 My website is two page navigatable pages.  The first page is simply a home page, consisting of a full background image with centered a centered button, modal, Social links and a copyright tag.
 
-- ENTER - This is a simple button on the index.html page which is linked to the main.html page which then opens another page, which essentially is the game 'Area'
-- Instructions/Modal - This is a modal on the home page index.html.  This Modal when clicked pops up and give you instructions on how the game is meant to be played
-- Social Links/Foooter - There are three links which the user can follow to take them to social links, they are: Facebook, Twitter and Github.  Then my name as copyright
-- Videos - This section has a music video that the Band released and is playable directly from the site, there is a link below the video to take the user to a you tube playlist of the band, i set this so it would open in a seperate page so the user can still continue to browse this site
-- Contact - This section has a form that if the user is interested can enter their details to enquire about booking the band, the submit button takes the user to an image
-- Footer - Very simple footer with social links of the band, Facebook, Twitter, Instagram and you tube
+- ENTER - This is a simple button on the index.html page which is linked to the main.html page which then opens another page, which essentially is the game 'Area'.
+- INSTRUCTIONS/MODAL - This is a modal on the home page index.html.  This Modal when clicked pops up and give you instructions on how the game is meant to be played.
+- SOCIAL LINKS/FOOTER - There are three links which the user can follow to take them to social links, they are: Facebook, Twitter and Github.  Then my name as copyright.
+- START GAME - This Button once clicked will start the theme music and essentially start the Game.
+- MUTE MUSIC - This Button once clicked will Pause the theme music and if you click start game it will resume where it was paused.
+- HOME - This button once clicked will take you back to the Home page.
+- RESTART - This Button will restart the game at any time once clicked./
 
 
 ## Features left to implement
@@ -63,7 +64,8 @@ This website has been laid out in a way as to get a feel for who the band are by
 
 I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I found it to be a very good tool, will continue to use this
 
-![Wireframes](https://github.com/kevin1610433/MS2-TeenageMutantNinjaTurtlesGame/blob/master/assets/images/Wireframes/TMNTwireframe.jpg)
+![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe1.jpg)
+![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe2.jpg)
 
 # **Surface**
 
