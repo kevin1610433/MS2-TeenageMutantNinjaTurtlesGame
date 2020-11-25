@@ -1,5 +1,7 @@
-let firstGuess = "";
-let secondGuess = "";
+//Code taken from fellow Student https://github.com/karzuin/MS2/blob/master/assets/js/main.js
+
+let firstguess = "";
+let secondguess = "";
 let count = 0; //stores the count
 let previousTarget = null;
 let delay = 1500;
@@ -76,6 +78,7 @@ cards.forEach((card) => card.addEventListener("click", flipCard));
 
 var music = document.getElementById("myAudio");
 
+//Music function
 function myFunction() {}
 
 function playAudio() {
@@ -86,6 +89,7 @@ function pauseAudio() {
   music.pause();
 }
 
+// code accredited to a fellow Student which has been modified https://github.com/karzuin/MS2/blob/master/index.html
 let moves = 0;
 const counter = document.querySelector(".moves");
 function moveCounter() {
@@ -104,8 +108,6 @@ function startTimer() {
   }, 1000);
 }
 
-
-
 let clicked = flipCard;
 if (timerOn === true) {
   startTimer();
@@ -119,3 +121,15 @@ function reloadGame() {
 let startGame = function myFunction() {
   reloadGame();
 };
+
+if (count < 2) {
+  count++;
+  moveCounter();
+  if (count === 1) {
+    firstGuess = clicked.parentNode.dataset.name;
+    clicked.parentNode.classList.add("selected");
+  } else {
+    secondGuess = clicked.parentNode.dataset.name;
+    clicked.parentNode.classList.add("selected");
+  }
+}

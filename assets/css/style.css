@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
+/* styles.css code taken from https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae and modified */
+
 * {
   padding: 0;
   margin: 0;
@@ -115,6 +117,7 @@ width: 100%;
   color: rgb(139, 2, 2);
   display: block;
 }
+/* styles.css code taken from https://github.com/karzuin/MS2/blob/master/assets/css/style.css and modified*/
 
 .scoreboard {
     height: 50px;

@@ -1,245 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/f07371f622.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://csshake.surge.sh/csshake.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+	<script src="https://kit.fontawesome.com/f07371f622.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
 
-    <!----------------------------Title------------------->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <title>Teenage Ninja Turtles</title>
-  </head>
-  <body>
-    <!-----------------Code taken from Bootsrap--------------->
+	<!----------------------------Title------------------->
 
-    <div class="container">
-      <div class="row">
-        <audio id="myAudio">
-          <source src="assets/audio/music/turtles.mp3" type="audio/ogg" />
-          <source src="assets/audio/music/turtles.mp3" type="audio/mpeg" />
-        </audio>
-        <p><button onclick="playAudio()" type="button">START GAME</button></p>
+	<title>Teenage Ninja Turtles</title>
+</head>
 
-        <p><button onclick="pauseAudio()" type="button">MUTE MUSIC</button></p>
+<body>
+	<!-----------------Code taken from Bootsrap--------------->
 
-        <a href="index.html"><button>HOME</button></a>
+	<div class="container">
+		<div class="row">
+			<audio id="myAudio">
+				<source src="assets/audio/music/turtles.mp3" type="audio/ogg" />
+				<source src="assets/audio/music/turtles.mp3" type="audio/mpeg" />
+			</audio>
+			<p><button onclick="playAudio()" type="button">START GAME</button></p>
 
-       
-      </div>
-    </div>
-     <!-------SCORE BOARD------>
-     <div class="scoreboard">
-        <div class="moves">0 moves</div>
-        <div class="timer">00:00</div>
-        <button type="button" class="restart" onclick="startGame()">Restart</button> 
-    </div>
+			<p><button onclick="pauseAudio()" type="button">MUTE MUSIC</button></p>
+
+			<a href="index.html"><button>HOME</button></a>
+
+
+		</div>
+	</div>
+	<!-------SCORE BOARD code taken from fellow student https://github.com/karzuin/MS2/blob/master/index.html----->
+	<div class="scoreboard">
+		<div class="moves">0 moves</div>
+		<div class="timer">00:00</div>
+		<button type="button" class="restart" onclick="startGame()">Restart</button>
+	</div>
 
 
 
-    <!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
-    <div class="container">
-    
-      <section class="memory-game">
-        <div class="memory-card" data-framework="ninja4">
-          <img
+	<!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
+	<div class="container">
+
+		<section class="memory-game">
+			<div class="memory-card" data-framework="ninja4">
+				<img
             class="front-face"
             src="assets/images/ninja4.jpg"
-            
+
             alt="ninja4"
           />
-          <img
+				<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja4">
-          <img
+				<div class="memory-card" data-framework="ninja4">
+					<img
             class="front-face"
             src="assets/images/ninja4.jpg"
-            
+
             alt="ninja4"
           />
-          <img
+					<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja10">
-          <img
+					<div class="memory-card" data-framework="ninja10">
+						<img
             class="front-face"
             src="assets/images/ninja10.jpg"
-           
+
             alt="ninja10"
           />
-          <img
+						<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja10">
-          <img
+						<div class="memory-card" data-framework="ninja10">
+							<img
             class="front-face"
             src="assets/images/ninja10.jpg"
-            
+
             alt="ninja10"
           />
-          <img
+							<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja2">
-          <img
+							<div class="memory-card" data-framework="ninja2">
+								<img
             class="front-face"
             src="assets/images/ninja2.png"
-            
+
             alt="ninja2"
           />
-          <img
+								<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja2">
-          <img
+								<div class="memory-card" data-framework="ninja2">
+									<img
             class="front-face"
             src="assets/images/ninja2.png"
-            
+
             alt="ninja2"
           />
-          <img
+									<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja6">
-          <img
+									<div class="memory-card" data-framework="ninja6">
+										<img
             class="front-face"
             src="assets/images/ninja6.jpg"
-            
+
             alt="ninja6"
           />
-          <img
+										<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja6">
-          <img
+										<div class="memory-card" data-framework="ninja6">
+											<img
             class="front-face"
             src="assets/images/ninja6.jpg"
-            
+
             alt="ninja6"
           />
-          <img
+											<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja7">
-          <img
+											<div class="memory-card" data-framework="ninja7">
+												<img
             class="front-face"
             src="assets/images/ninja7.jpg"
-            
+
             alt="ninja7"
           />
-          <img
+												<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja7">
-          <img
+												<div class="memory-card" data-framework="ninja7">
+													<img
             class="front-face"
             src="assets/images/ninja7.jpg"
-            
+
             alt="ninja7"
           />
-          <img
+													<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja8">
-          <img
+													<div class="memory-card" data-framework="ninja8">
+														<img
             class="front-face"
             src="assets/images/ninja8.png"
-            
+
             alt="ninja8"
           />
-          <img
+														<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
 
-        <div class="memory-card" data-framework="ninja8">
-          <img
+														<div class="memory-card" data-framework="ninja8">
+															<img
             class="front-face"
             src="assets/images/ninja8.png"
-            
+
             alt="ninja8"
           />
-          <img
+															<img
             class="back-face"
             src="assets/images/ninja1.jpg"
             alt="Memory Card"
           />
         </div>
-      
-    </section>
-    </div>
 
- 
-    
-   
+		</section>
+	</div>
 
-      <p class="text">Kevin Rogerson 2020</p>
-    
 
-    <script src="assets/javascript/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  </body>
+
+	<!-----------Footer-------------->
+
+	<p class="text">Kevin Rogerson 2020</p>
+
+
+	<script src="assets/javascript/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
 </html>
