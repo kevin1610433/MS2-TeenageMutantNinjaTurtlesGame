@@ -58,7 +58,7 @@ The Scope for me was that I wanted to provide a fun Colourful user friendly envi
 
 # **Structure**
 
-The Structure of the game is laid out into two pages, the landing page consists of an Instruction Modal, with an Enter button which will you take you to the 'Game Page' and some social links.  Once the user has been taken to the 'Game Page' there is a 'Start Game' button, 'Mute Music' button and a 'Home' button. 
+The Structure of the game is laid out into two pages, the landing page consists of an Instruction Modal, with an Enter button which will you take you to the 'Game Page' and there is some social links on the landing page.  Once the user has been taken to the 'Game Page' there is a 'Start Game' button, 'Mute Music' button and a 'Home' button. 
 
 # **Skeleton**
 
