@@ -41,28 +41,28 @@ My website is two page navigatable pages.  The first page is simply a home page,
 - START GAME - This Button once clicked will start the theme music and essentially start the Game.
 - MUTE MUSIC - This Button once clicked will Pause the theme music and if you click start game it will resume where it was paused.
 - HOME - This button once clicked will take you back to the Home page.
-- RESTART - This Button will restart the game at any time once clicked./
+- RESTART - This Button will restart the game at any time once clicked.
 
 
 ## Features left to implement
 
-I think if I need to add more features to this site I would probably need to add some merchandise store to gain more interest from users. I would also like to see a big image gallery in future to entice more potential footfall
+I think if I need to add anything more to this site I would like to add a pop up modal once game is completed to congratulate the user and display the score and time with a restart function.  This will essentially come with more practice learning the language of Javascript.  I would also like to implement different levels of difficulty and maybe change the timer to a countdown to timer to really make the levels more difficult as the levels progress.
 
 # **Strategy**
 
-I set out to make this an enjoyable site to visit as well as an easy site to navigate. I wanted to keep it simple but still enough on the page to navigate through
+I set out to make this a friendly, Colourful game with a theme tune to essentially relive my youth and have a bit of fun with it. The game is just some fun for the user weather they are young or old.
 
 # **Scope**
 
-For every new or old music lover, I wanted to create an easy friendly navigatable site that has ease of access and shows the users what the band is all about
+The Scope for me was that I wanted to provide a fun Colourful user friendly environment to engage the user along with some theme music to keep them entertained.  For the adults it will take them back to the early 90's and will introduce kids into an all time favourite.
 
 # **Structure**
 
-This website has been laid out in a way as to get a feel for who the band are by visual and then you get to know about the band, then listen to their music.  
+The Structure of the game is laid out into two pages, the landing page consists of an Instruction Modal, with an Enter button which will you take you to the 'Game Page' and some social links.  Once the user has been taken to the 'Game Page' there is a 'Start Game' button, 'Mute Music' button and a 'Home' button. 
 
 # **Skeleton**
 
-I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I found it to be a very good tool, will continue to use this
+I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I found it to be a very good tool, will continue to use this, I keep discovering more things to use with it.
 
 ![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe1.jpg)
 ![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe2.jpg)
@@ -70,12 +70,13 @@ I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I
 
 # **Surface**
 
-The surface of this site is easy on the eye with eye catching images and an easy navigational panel. I opted for Pangolin font which is easy to read and very eye catching. All sections are aligned correctly apart from the Band images section. I struggled with this section as everytime I changed the 'Class' from row it would vertically align my images, this class I got from Bootstrap, I corrected this as much as I could by using padding
+The Surface of my website was to obtain and eye catching feeling, I feel obtained this by using lots of colour and interesting images of the Turtles.  I Used shutterstock for some of my images and the others I gained from the internet
 
 # **Technologies Used**
 
 - Html - Html was used to create the layout of the website
 - CSS - CSS was used to syle my website
+- Javascript - I used Javascript to flip my 'Game' cards around and incorporate the music function as long as the timer and move counter
 - Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout
 - [Bootstrap](https://getbootstrap.com/) - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
 - W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive) i altered it a bit to suit my website
@@ -101,11 +102,11 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Content
 
-- I obtained code from Bootstrap, W3Schools, and I found both these websites to be very helpful. I put a photo Carousel in and i got this code from [here](https://getbootstrap.com/docs/4.5/components/carousel/), my contact form i got from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive), I also used bootstrap to align my band images which i obtained form [here](https://getbootstrap.com/docs/4.5/layout/grid/#auto-layout-columns)
+- I obtained code from free code camp for the Javascript game, which can be found here [here](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae), I also used some of the CSS styling from here and modified the code to suit my project.  I also obtained some code from a fellow student who built a similar game to me and I was intrigued how this student managed a simple yet such an effective game, I used some HTML, CSS, & Javascript from this student and again modified to suit my code.  You can fin the link [here](https://github.com/karzuin/MS2)
 
 ## Media
 
-- All media is from you tube and all images were obtained from Facebook with the Bands permission
+- All media was obtained from shutterstock and google.  Media was an MP3 that my brother Derek Rogerson kindly gave to me.  
 
 ## Acknowledgements
 
@@ -113,4 +114,6 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 - I found the responsive form to submit from W3Schools as shown above in Technologies used section
 - Huge thank you to 'Oluwafemi Medale' my mentor for all the help with this project
 - I would just like to say a big thank you to the Band itself, Adam Boyd, Grant Coetzee, Werner Ainslie & Graeme Swale - this project is for educational purposes only.  This is a factual Band, they have now parted but I have full permission and references are available on request.
-- I would also like to thank the Slack community and everyone at Code Institute, the support has been great
+- I would also like to thank the Slack community and everyone at Code Institute, the support has been great.
+- All images used from google is for Educational purposes only and they are not to be used to be dispersed
+- I would like to thank Karen Yeun a fellow student in Code Institute as this project helped me structure mine.  I would also like to thank my Wife Emma Rogerson who originally gave me the idea of doing a project on Teenage Mutant Ninja Turtles.
