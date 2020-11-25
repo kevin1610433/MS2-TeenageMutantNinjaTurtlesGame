@@ -9,7 +9,7 @@
 
 body,
 html {
-  height: 100%;
+  
   width: 100%;
   margin: 0;
   font-family: "Indie Flower", sans-serif;
@@ -40,7 +40,6 @@ html {
 
 .memory-game {
 height: 640px;
-width: 640px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
