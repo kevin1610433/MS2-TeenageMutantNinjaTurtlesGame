@@ -1,3 +1,11 @@
+let firstGuess = "";
+let secondGuess = "";
+let count = 0; //stores the count
+let previousTarget = null;
+let delay = 1500;
+let timerOn = true;
+let matchCount = 0;
+
 //Code taken from and accredited to https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 
 const cards = document.querySelectorAll(".memory-card");
@@ -78,34 +86,36 @@ function pauseAudio() {
   music.pause();
 }
 
-// Create a div element to add to the page that will hold the congrats message later
-// Hide the div element initially
-function buildCongrats() {
-  const page = document.getElementsByClassName(`container`);
-  const popup = document.createElement(`div`);
-  popup.className = `congratsPopup dimmed`;
-  popup.innerHTML = ``;
-  page[0].appendChild(popup);
+let moves = 0;
+const counter = document.querySelector(".moves");
+function moveCounter() {
+  moves++;
+  counter.innerHTML = moves + " moves";
 }
 
-// Display the congrats message with the move count, total time, star rating and play again 'button'
-function displayCongrats() {
-  const popup = document.getElementsByClassName(`congratsPopup`);
-  popup[0].className = `congratsPopup`;
-  popup[0].innerHTML = `<h2 class="congratsHeading" > Congratulations! </h2>
-        <h3 class="congratsTagline" > You've won the game! </h3>
-        <p class="congratsMove" > ${moveCounter} moves </p>
-        <p class="congratsTime" > ${timer.innerHTML} total time </p>
-        <p class="congratsStar" > ${starRating} stars </p>
-        <p class="congratsPlay" > Play Again </p>`;
-  const play = document.getElementsByClassName(`congratsPlay`);
-  play[0].addEventListener(`click`, reset);
+let time = 0;
+let timer;
+function startTimer() {
+  timer = setInterval(function () {
+    time++;
+    minutes = ("0" + Math.floor(time / 60)).slice(-2);
+    seconds = ("0" + (time % 60)).slice(-2);
+    document.querySelector(".timer").innerHTML = minutes + ":" + seconds;
+  }, 1000);
 }
 
-// Hide the congrats popup by adding the class 'dimmed'
-// Erase the congrats text messages
-function hideCongrats() {
-  const popup = document.getElementsByClassName(`congratsPopup`);
-  popup[0].className = `congratsPopup dimmed`;
-  popup[0].innerHTML = ``;
+
+
+let clicked = flipCard;
+if (timerOn === true) {
+  startTimer();
+  timerOn = true;
 }
+
+function reloadGame() {
+  window.location.reload();
+}
+
+let startGame = function myFunction() {
+  reloadGame();
+};

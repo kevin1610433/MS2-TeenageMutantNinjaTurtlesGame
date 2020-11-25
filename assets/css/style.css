@@ -9,7 +9,7 @@
 
 body,
 html {
-  
+  height: 100%;
   width: 100%;
   margin: 0;
   font-family: "Indie Flower", sans-serif;
@@ -40,6 +40,7 @@ html {
 
 .memory-game {
 height: 640px;
+width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -109,10 +110,56 @@ height: 640px;
 
 
 
-.social {
+.text {
   text-align: center;
   color: rgb(139, 2, 2);
+  display: block;
 }
+
+.scoreboard {
+    height: 50px;
+    width: 650px;
+    margin : 0 auto;
+	padding : 5px;
+	display : flex;
+	flex-direction: row;
+	justify-content:center;
+    color: rgb(139, 2, 2);
+    font-size: 36px;
+}
+
+.moves, .timer {
+    margin: auto;
+  display: flex;
+  position: relative;
+  width: 100%;
+  color: rgb(139, 2, 2);
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 36px;
+  
+}
+
+.restart {
+    border: none;
+    background-color: white;
+    height: fit-content;
+    margin-top: 5px;
+    font-family: "Indie Flower", sans-serif;
+    color: rgb(139, 2, 2);
+    font-size: 20px;
+    width: 100%;
+}
+
+.restart:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+
+
 
 
 

@@ -44,11 +44,17 @@
 
         <a href="index.html"><button>HOME</button></a>
 
-        <p id="restart">
-          <button onclick="init();">RESTART</button>
-        </p>
+       
       </div>
     </div>
+     <!-------SCORE BOARD------>
+     <div class="scoreboard">
+        <div class="moves">0 moves</div>
+        <div class="timer">00:00</div>
+        <button type="button" class="restart" onclick="startGame()">Restart</button> 
+    </div>
+
+
 
     <!--Code taken from here https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae-->
     <div class="container">
@@ -224,29 +230,13 @@
       
     </section>
     </div>
-    
-    <!-------Code taken from previous project and changed--------->
 
-    <div class="social">
-      <a target="_blank" href="https://www.facebook.com">
-        <i
-          class="fa fa-facebook-official"
-          aria-hidden="true"
-          style="width: 100%;"
-        ></i>
-        <span class="sr-only">Facebook</span>
-      </a>
-      <a target="_blank" href="https://twitter.com/explore">
-        <i class="fa fa-twitter" aria-hidden="true" style="width: 100%;"></i>
-        <span class="sr-only">Twitter</span>
-      </a>
-      <a target="_blank" href="https://github.com/kevin1610433/">
-        <i class="fab fa-github" aria-hidden="true" style="width: 100%;"></i>
-        <span class="sr-only">Github</span>
-      </a>
+ 
+    
+   
 
       <p class="text">Kevin Rogerson 2020</p>
-    </div>
+    
 
     <script src="assets/javascript/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
