@@ -102,7 +102,7 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Content
 
-- I obtained code from free code camp for the Javascript game, which can be found here [here](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae), I also used some of the CSS styling from here and modified the code to suit my project.  I also obtained some code from a fellow student who built a similar game to me and I was intrigued how this student managed a simple yet such an effective game, I used some HTML, CSS, & Javascript from this student and again modified to suit my code.  You can fin the link [here](https://github.com/karzuin/MS2)
+- I obtained code from free code camp for the Javascript game, which can be found here [here](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae), I also used some of the CSS styling from here and modified the code to suit my project.  I also obtained some code from a fellow student who built a similar game to me and I was intrigued how this student managed a simple yet such an effective game, I used some HTML, CSS, & Javascript from this student and again modified to suit my code.  You can find the link [here](https://github.com/karzuin/MS2)
 
 ## Media
 
@@ -110,10 +110,8 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Acknowledgements
 
-- Navigation used with Bootstrap, Img Carousel used with Bootstrap, Band section used from Bootstrap with Custom CSS, Band image used with Bootstrap, Video section embeded from you tube, Contact adapted from W3Schools
-- I found the responsive form to submit from W3Schools as shown above in Technologies used section
-- Huge thank you to 'Oluwafemi Medale' my mentor for all the help with this project
-- I would just like to say a big thank you to the Band itself, Adam Boyd, Grant Coetzee, Werner Ainslie & Graeme Swale - this project is for educational purposes only.  This is a factual Band, they have now parted but I have full permission and references are available on request.
+- 
 - I would also like to thank the Slack community and everyone at Code Institute, the support has been great.
 - All images used from google is for Educational purposes only and they are not to be used to be dispersed
 - I would like to thank Karen Yeun a fellow student in Code Institute as this project helped me structure mine.  I would also like to thank my Wife Emma Rogerson who originally gave me the idea of doing a project on Teenage Mutant Ninja Turtles.
+- 
