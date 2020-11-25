@@ -9,7 +9,7 @@ In Short:
 
 - Simple card matching game
 - Wide target audience
-- Increase timings with memory of cards
+- Beat you're time on each try to see if you can get less moves and less time
 
 # **Demo**
 
@@ -33,7 +33,7 @@ This website has two navigatible pages.  The home page is just for simplicity wi
 
 # **Features**
 
-My website is two page navigatable pages.  The first page is simply a home page, consisting of a full background image with centered a centered button, modal, Social links and a copyright tag.
+My website has two navigatable pages.  The first page is simply a home page, consisting of a full background image with centered a centered button, modal, Social links and a copyright tag.
 
 - ENTER - This is a simple button on the index.html page which is linked to the main.html page which then opens another page, which essentially is the game 'Area'.
 - INSTRUCTIONS/MODAL - This is a modal on the home page index.html.  This Modal when clicked pops up and give you instructions on how the game is meant to be played.
@@ -62,7 +62,7 @@ The Structure of the game is laid out into two pages, the landing page consists 
 
 # **Skeleton**
 
-I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I found it to be a very good tool, will continue to use this, I keep discovering more things to use with it.
+I used Balsamiq to create my wireframes - Second time I have used Balsamiq for my MS projects and I found it to be a very good tool, will continue to use this, I keep discovering more things to use with it.
 
 ![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe1.jpg)
 ![Wireframes](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/wireframe/wireframe2.jpg)
@@ -70,18 +70,18 @@ I used Balsamiq to create my wireframes - Second time I have used Balsamiq and I
 
 # **Surface**
 
-The Surface of my website was to obtain and eye catching feeling, I feel obtained this by using lots of colour and interesting images of the Turtles.  I Used shutterstock for some of my images and the others I gained from the internet
+The Surface of my website was to obtain and eye catching feeling, I feel I obtained this by using lots of colour and interesting images of the Turtles.  I Used shutterstock for some of my images and the others I gained from the internet
 
 # **Technologies Used**
 
 - Html - Html was used to create the layout of the website
 - CSS - CSS was used to syle my website
 - Javascript - I used Javascript to flip my 'Game' cards around and incorporate the music function as long as the timer and move counter
-- Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout
-- [Bootstrap](https://getbootstrap.com/) - I used bootstrap for responsivness and created an image carousel, I also used the CDN for this project and Bootstrap Grid
-- W3Schools - I found W3Schools extremelly helpful with this project and I used this responsive form [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive) i altered it a bit to suit my website
-- [Font Awesome](https://fontawesome.com) I used font awesome for the icons
-- [Google Fonts](https://fonts.google.com/) - I used Google fonts for my fonts and i used "Pangolin" throughout the entire page as i think it works well with the site
+- Balsamiq Wireframes - Balsamiq was used to create wireframes to get an idea of layout and changed slightly when I started coding
+- [Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/) - I used bootstrap for my modal and used container divs for my classes
+- W3Schools - I found W3Schools extremelly helpful with this project and I used this audio to help with starting my theme music [W3Schools](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_play) I then modified it a little.
+- [Font Awesome](https://fontawesome.com/) I used font awesome for the icons
+- [Google Fonts](https://fonts.google.com/specimen/Indie+Flower?sidebar.open=true&selection.family=Indie+Flower) - I used Google fonts for my fonts and I used "Indie-Flower" throughout the entire page as I think it works well with the site and fits the theme of the Turtles
 - [W3Validator](https://validator.w3.org/) - I used this to test my HTML and CSS
 
 # **Testing**
