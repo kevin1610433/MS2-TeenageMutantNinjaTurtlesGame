@@ -15,7 +15,7 @@ In Short:
 
 A live Demo can be found [here](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/)
 
-![Design](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/demo.png)
+![Design](https://kevin1610433.github.io/MS2-TeenageMutantNinjaTurtlesGame/assets/images/turtlesdemo.png)
 
 # **UX**
 
