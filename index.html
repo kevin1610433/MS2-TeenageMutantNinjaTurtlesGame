@@ -1,99 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f07371f622.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://csshake.surge.sh/csshake.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-	<script src="https://kit.fontawesome.com/f07371f622.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!----------------------------Title------------------->
 
-	<!----------------------------Title------------------->
+    <title>Teenage Ninja Turtles</title>
+  </head>
 
-	<title>Teenage Ninja Turtles</title>
-</head>
+  <body>
+    <div class="bg">
+      <a href="main.html"><button>ENTER</button></a>
 
-<body>
+      <!-----------------Code taken from Bootsrap--------------->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        INSTRUCTIONS
+      </button>
+      <!------------------ Modal ------------------->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                INSTRUCTIONS
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              KAWABANGA!!! The object of this game is a simple card game. You
+              will need to flip the cards to get a match. You can play as many
+              times as you like. Good Luck!
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-------Code taken from previous project and changed/Footer--------->
 
-	<div class="bg">
+      <p>
+        <a target="_blank" href="https://www.facebook.com">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <span class="sr-only">Facebook</span>
+        </a>
+        <a target="_blank" href="https://twitter.com/explore">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span class="sr-only">Twitter</span>
+        </a>
+        <a target="_blank" href="https://github.com/kevin1610433/">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span class="sr-only">Github</span>
+        </a>
+      </p>
 
-		<a href="main.html"><button>ENTER</button></a>
+      <p><b> Kevin Rogerson 2020</b></p>
+    </div>
 
-		<!-----------------Code taken from Bootsrap--------------->
-		<button
-            type="button"
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#exampleModal"
-          >
-            INSTRUCTIONS
-          </button>
-		<!------------------ Modal ------------------->
-		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">
-							INSTRUCTIONS
-						</h5>
-						<button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-					</div>
-					<div class="modal-body">
-						KAWABANGA!!! The object of this game is a simple card game.
-						You will need to flip the cards to get a match. You can play
-						as many times as you like.  Good Luck!
-					</div>
-					<div class="modal-footer">
-						<button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-------Code taken from previous project and changed/Footer--------->
-
-		<p>
-			<a target="_blank" href="https://www.facebook.com">
-				<i class="fa fa-facebook-official" aria-hidden="true"></i>
-				<span class="sr-only">Facebook</span>
-			</a>
-			<a target="_blank" href="https://twitter.com/explore">
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-				<span class="sr-only">Twitter</span>
-			</a>
-			<a target="_blank" href="https://github.com/kevin1610433/">
-				<i class="fab fa-github" aria-hidden="true"></i>
-				<span class="sr-only">Github</span>
-			</a>
-		</p>
-
-
-		<p><b> Kevin Rogerson 2020</b></p>
-	</div>
-
-	<script src="assets/javascript/main.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="assets/javascript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
