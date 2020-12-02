@@ -82,13 +82,11 @@ The Surface of my website was to obtain and eye catching feeling, I feel I obtai
 - W3Schools - I found W3Schools extremelly helpful with this project and I used this audio to help with starting my theme music [W3Schools](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_play) I then modified it a little.
 - [Font Awesome](https://fontawesome.com/) I used font awesome for the icons
 - [Google Fonts](https://fonts.google.com/specimen/Indie+Flower?sidebar.open=true&selection.family=Indie+Flower) - I used Google fonts for my fonts and I used "Indie-Flower" throughout the entire page as I think it works well with the site and fits the theme of the Turtles
-- [W3Validator](https://validator.w3.org/) - I used this to test my HTML and CSS
+- [W3Validator](https://validator.w3.org/nu/#textarea) - I used this to test my HTML and CSS
 
 # **Testing**
 
-I used several different browsers to test my site, namely Chrome, Firefox and Microsoft Edge, Chrome was absolutely fine, however Firefox and Edge, my Social links at the bottom didnt work out, I Tried putting my code through Validator and found little errors but couldnt fix this issue, I also tired using different classes to wrap the icons to try and sort this issue but to no avail. The responsiveness works well across these browsers, I also tested this on Google Pixel 3, Samsung Tablet SMTM85 and the page responded well. I also used Dev tools to inspect on the different devices that are available and on an ipad pro the images go vertically but are still aligned nicely.
-All the links and different sections work nicely and collapse on different devices.
-Tested CSS in W3Validator and only found minimal errors, I also tested my HTML in W3Validator  and the only errors were my Video section which i struggled to changed as i copied this directly from [you tube](https://www.youtube.com/watch?v=3Zz7LipDBFg)
+
 
 # **Deployment**
 
@@ -110,8 +108,8 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Acknowledgements
 
-- 
+- I would like to acknowledge all the code that I obtained online from the above Acknowledgements, they have been an incredible help.
 - I would also like to thank the Slack community and everyone at Code Institute, the support has been great.
-- All images used from google is for Educational purposes only and they are not to be used to be dispersed
+- All images used from google is for Educational purposes only and they are not to be used to be dispersed.
 - I would like to thank Karen Yeun a fellow student in Code Institute as this project helped me structure mine.  I would also like to thank my Wife Emma Rogerson who originally gave me the idea of doing a project on Teenage Mutant Ninja Turtles.
-- 
+- Again I would like to say thanks to my Brother who helped me with the MP3 for the theme music as this has helped me incorporate this into my project.
