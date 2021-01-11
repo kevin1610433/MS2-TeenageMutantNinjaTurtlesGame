@@ -86,7 +86,7 @@ The Surface of my website was to obtain and eye catching feeling, I feel I obtai
 
 # **Testing**
 
-
+I tested my site through Chrome and all seemed responsive.  I also tested my site through mobile, namely google pixel 3 and all seemed responsive also.  Tested through a Samsung Tablet also and again seemed responsive.  The only issue I would comment on this or say is that the images seem slightly blurred on samller devices, the reponsivness works fine but pixelation of images is not.
 
 # **Deployment**
 
