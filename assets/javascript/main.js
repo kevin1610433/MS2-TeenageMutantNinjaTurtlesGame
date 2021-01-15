@@ -8,8 +8,6 @@ let delay = 1500;
 let timerOn = true;
 let matchCount = 0;
 
-
-
 //Code taken from and accredited to https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 
 const cards = document.querySelectorAll(".memory-card");

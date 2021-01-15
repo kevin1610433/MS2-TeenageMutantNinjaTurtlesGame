@@ -9,7 +9,7 @@ In Short:
 
 - Simple card matching game
 - Wide target audience
-- Beat you're time on each try to see if you can get less moves and less time
+- Beat you're time on each try to see if you can get less moves and less time.
 
 # **Demo**
 
@@ -46,7 +46,7 @@ My website has two navigatable pages.  The first page is simply a home page, con
 
 ## Features left to implement
 
-I think if I need to add anything more to this site I would like to add a pop up modal once game is completed to congratulate the user and display the score and time with a restart function.  This will essentially come with more practice learning the language of Javascript.  I would also like to implement different levels of difficulty and maybe change the timer to a countdown to timer to really make the levels more difficult as the levels progress.
+I think if I need to add anything more to this site I would like to add a pop up modal once game is completed to congratulate the user and display the score and time with a restart function.  This will essentially come with more practice learning the language of Javascript.  I would also like to implement different levels of difficulty and maybe change the timer to a countdown to timer to really make the levels more difficult as the levels progress.  Unfortunately I couldnt get my move counter/timer to function properly, however with more research I feel I could introduce this once I initiate more practice with the Javascript Language.
 
 # **Strategy**
 
@@ -86,7 +86,7 @@ The Surface of my website was to obtain and eye catching feeling, I feel I obtai
 
 # **Testing**
 
-I tested my site through Chrome and all seemed responsive.  I also tested my site through mobile, namely google pixel 3 and all seemed responsive also.  Tested through a Samsung Tablet also and again seemed responsive.  The only issue I would comment on this or say is that the images seem slightly blurred on samller devices, the reponsivness works fine but pixelation of images is not.
+I tested my site through Chrome and all seemed responsive.  I also tested my site through mobile, namely google pixel 3 and all seemed responsive also.  Tested through a Samsung Tablet also and again seemed responsive.  The only issue I would comment on this or say is that the images seem slightly blurred on smaller devices, the reponsivness works fine but pixelation of images is not.  This was tested through a number of smart phones and I encountered the same problems each and every time.  More research and studying is required to master this.
 
 # **Deployment**
 
@@ -104,7 +104,7 @@ This site is deployed directly from GitHub, everytime this is updated it will au
 
 ## Media
 
-- All media was obtained from shutterstock and google.  Media was an MP3 that my brother Derek Rogerson kindly gave to me.  
+- All media was obtained from shutterstock and google.  Media was an MP3 that my brother Derek Rogerson kindly gave to me.  All Media is for Educational purposes only and cannot be distributed.
 
 ## Acknowledgements
 
